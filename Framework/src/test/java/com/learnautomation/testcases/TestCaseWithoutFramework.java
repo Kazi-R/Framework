@@ -12,6 +12,9 @@ public class TestCaseWithoutFramework {
 	@Test
 	public void loginTest()
 	{
+		//new test without a framework 
+		//do I need to send it?
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\PS_QA\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
